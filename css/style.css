@@ -145,7 +145,7 @@ h6 {
   font-size: 26px;
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+  line-height: 1;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -194,14 +194,12 @@ h6 {
   margin-bottom: 20px;
   font-size: 55px;
   font-weight: 900;
-  padding: 0 15%;
 }
 
 #intro .intro-info p {
   margin-bottom: 40px;
   font-size: 20px;
   font-weight: 500;
-  padding: 0 20%;
 }
 
 
@@ -299,7 +297,7 @@ h6 {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 13px;
-  color: #004289;
+  color: #02721a;
 }
 
 .main-nav .drop-down ul a:hover,
@@ -346,7 +344,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   transition: 0.4s;
 }
 
@@ -365,9 +363,8 @@ h6 {
 }
 
 .mobile-nav a:hover,
-.mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #74b5fc;
+  color: #09c532;
   text-decoration: none;
 }
 
@@ -413,7 +410,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: #000;
 }
 
 .mobile-nav-overly {
@@ -423,7 +420,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgba(0, 0, 0, 0.2);
   overflow: hidden;
   display: none;
 }
@@ -1226,6 +1223,19 @@ h6 {
   #intro .intro-info {
     margin-top: -125px;
   }
+  #header .logo h1 {
+    line-height: 1.5 !important; 
+  }
+
+  #intro .intro-info h2 {
+    padding: 0 15%;
+  }
+  
+  #intro .intro-info p {
+    padding: 0 20%;
+  }
+
+
 }
 
 @media (max-width: 991px) {
@@ -1239,9 +1249,14 @@ h6 {
     padding: 8px 0;
   }
 
-  #intro {
-    padding: 140px 0 60px 0;
+  .fixy{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
+
+  */
 
   #intro .intro-img {
     width: 80%;
@@ -1273,7 +1288,7 @@ h6 {
   }
 
   #intro .intro-info h2 {
-    font-size: 34px;
+    font-size: 45px;
     margin-bottom: 30px;
   }
 
