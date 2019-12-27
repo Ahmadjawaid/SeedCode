@@ -64,9 +64,6 @@ h6 {
   z-index: 11;
 }
 
-.back-to-top:hover{
-  background: #004289;
-}
 
 .back-to-top i {
   padding-top: 12px;
@@ -156,7 +153,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #00366f;
+  color: #000;
   text-decoration: none;
 }
 
@@ -221,8 +218,8 @@ h6 {
 }
 
 #intro .intro-info .btn-main:hover {
-  background: #00366f;
-  border-color: #00366f;
+  background: #000000;
+  border-color: #000;
   color: white;
 }
 
@@ -446,10 +443,10 @@ h6 {
 --------------------------------*/
 
 .section-header h3 {
-  font-size: 36px;
+  font-size: 40px;
   color: #283d50;
   text-align: center;
-  font-weight: 500;
+  font-weight: 800;
   position: relative;
 }
 
@@ -632,7 +629,7 @@ h6 {
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #000;
 }
 
 #why-us .section-header h3,
@@ -711,6 +708,8 @@ h6 {
 #portfolio {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  color: white;
+  background: #000;
 }
 
 #portfolio #portfolio-flters {
