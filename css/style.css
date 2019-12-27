@@ -142,12 +142,17 @@ h6 {
 }
 
 #header .logo h1 {
-  font-size: 36px;
+  font-size: 26px;
   margin: 0;
   padding: 0;
+  line-height: 1.5;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#header .logo h1 .sp {
   line-height: 1;
   font-weight: 400;
-  letter-spacing: 3px;
   text-transform: uppercase;
 }
 
@@ -240,6 +245,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  
 }
 
 .main-nav > ul > li {
@@ -260,9 +266,8 @@ h6 {
 }
 
 .main-nav a:hover,
-.main-nav .active > a,
 .main-nav li:hover > a {
-  color: #004289;
+  color: #02721a;
   text-decoration: none;
 }
 
@@ -810,7 +815,7 @@ h6 {
 #team {
   background: #fff;
   padding: 60px 0;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1); */
 }
 
 #team .member {
@@ -1069,10 +1074,9 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
   padding: 0 0 30px 0;
-  color: #eee;
   font-size: 14px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-top {
@@ -1218,6 +1222,9 @@ h6 {
 @media (min-width: 992px) {
   #testimonials .testimonial-item p {
     width: 80%;
+  }
+  #intro .intro-info {
+    margin-top: -125px;
   }
 }
 
