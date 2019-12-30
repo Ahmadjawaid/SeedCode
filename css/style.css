@@ -910,7 +910,7 @@ ul {
 }
 
 #team .member .social a:hover {
-  color: rgb(8, 83, 182);
+  color: #03a827;
 }
 
 #team .member .social i {
@@ -1221,6 +1221,16 @@ ul {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+}
+
+.footer-a {
+  color: #444;
+  margin-right: 5px;
+}
+
+.footer-a:hover {
+  color: #444;
+  text-decoration: underline;
 }
 
 #footer .credits {
