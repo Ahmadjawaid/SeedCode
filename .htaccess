@@ -1,0 +1,5 @@
+Options +Multiviews
+
+RewriteEngine On
+RewriteCond %{careers.html} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
