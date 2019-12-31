@@ -768,6 +768,22 @@ ul {
   opacity: 0.4;
   transition: 0.3s;
 }
+.portfolio-info p {
+  padding-top: 10px !important;
+}
+
+.preview-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.preview-btn:hover {
+  background-color: #000;
+  border: 1px solid #000;
+  color: white;
+}
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info {
   position: absolute;
@@ -775,24 +791,11 @@ ul {
   right: 0;
   bottom: 0;
   left: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center;
+
+  padding: 30px;
+
+  
+  text-align: left;
   opacity: 0;
   transition: 0.2s linear;
 }
@@ -816,10 +819,10 @@ ul {
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
   padding: 0;
   margin: 0;
-  color: #000;
+  color: #fff;
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
+  text-align: left;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
