@@ -740,11 +740,21 @@ ul {
   padding-left:  20px;
   padding-right:  20px;
   margin-bottom: 15px;
+  font-size: medium;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .ph-btn:hover {
   border: 1px solid #1DACBA;
   color: white;
   background-color: #1DACBA;
+}
+
+.ph-btn i {
+  padding-left: 10px;
 }
 
 #portfolio h3 {
@@ -830,13 +840,18 @@ ul {
   transition: 0.2s linear;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
+.portfolio-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-info-header span{
   font-size: 22px;
   line-height: 1px;
   font-weight: 700;
-  margin-bottom: 14px;
-  padding-bottom: 0;
 }
+
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
   color: #fff;
@@ -862,9 +877,10 @@ ul {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #000;
+  background: transparent;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
+
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
@@ -876,12 +892,11 @@ ul {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #000;
+  transform: scale(1.1);
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
-  color: #03a827;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
