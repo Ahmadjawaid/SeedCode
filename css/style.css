@@ -1394,6 +1394,13 @@ ul {
     right: 0;
   }
 
+  .card {
+    font-size: 13px;
+  }
+  .card button{
+    font-size: 15px;
+  }
+
   */
 
   #intro .intro-img {
