@@ -515,6 +515,11 @@ ul {
   align-items: center;
 }
 
+.spread button {
+  text-align: left !important;
+}
+
+
 #positions {
   background: #fff;
   padding: 40px 0;
