@@ -717,6 +717,30 @@ ul {
   background: #000;
 }
 
+#portfolio .h4 {
+  margin-top: 2em;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+.portfolio-highlight {
+  color: white;
+}
+
+.ph-btn {
+  background-color: #1DACBA;
+  border: 1px solid #1DACBA;
+  color:white;
+  padding-left:  20px;
+  padding-right:  20px;
+  margin-bottom: 15px;
+}
+.ph-btn:hover {
+  border: 1px solid #1DACBA;
+  color: white;
+  background-color: #1DACBA;
+}
+
 #portfolio h3 {
   color: white;
 }
@@ -744,7 +768,7 @@ ul {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #00d32e
+  color: #1DACBA
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -1285,6 +1309,10 @@ ul {
   #header {
     height: 60px;
     padding: 10px 0;
+  }
+
+  .mt-mobile {
+    margin-top: 40px;
   }
 
   #header .logo h1 {
