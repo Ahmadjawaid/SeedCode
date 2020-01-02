@@ -304,7 +304,7 @@ ul {
 
 .main-nav a:hover,
 .main-nav li:hover > a {
-  color: #03a827;
+  color: #004289;
   text-decoration: none;
 }
 
@@ -336,7 +336,7 @@ ul {
 .main-nav .drop-down ul a {
   padding: 10px 20px;
   font-size: 13px;
-  color: #03a827;
+  color: #004289;
 }
 
 .main-nav .drop-down ul a:hover,
@@ -403,7 +403,7 @@ ul {
 
 .mobile-nav a:hover,
 .mobile-nav li:hover > a {
-  color: #09c532;
+  color: #004289;
   text-decoration: none;
 }
 
