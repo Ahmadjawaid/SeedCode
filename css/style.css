@@ -865,6 +865,7 @@ ul {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover img {
+  opacity: 0.4;
   transition: 0.3s;
 }
 .portfolio-info p {
@@ -941,6 +942,7 @@ ul {
 #portfolio .portfolio-item .portfolio-wrap:hover {
   background: #000;
   cursor: pointer;
+  
 
 }
 
