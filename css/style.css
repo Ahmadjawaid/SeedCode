@@ -962,14 +962,7 @@ ul {
   margin-top: 5px;
 }
 
-@media (min-width: 992px){
-.modal-dialog {
-  max-width: 50vw;
-}
-.px-img {
-  padding: 0 14rem;
-}
-}
+
 
 .modal-foot {
   display: flex;
@@ -986,6 +979,14 @@ ul {
 .px-img {
   padding: 0 7rem;
 }
+@media (min-width: 992px){
+  .modal-dialog {
+    max-width: 50vw;
+  }
+  .px-img {
+    padding: 0 14rem;
+  }
+  }
 
 
 .modal-foot h4{
