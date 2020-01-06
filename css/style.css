@@ -312,6 +312,7 @@ ul {
 .collab-img {
   width: 100%; 
   padding: 0 5%;
+  padding-top: 75px;
 }
 
 @media (min-width: 992px) {
@@ -864,7 +865,6 @@ ul {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover img {
-  opacity: 0.4;
   transition: 0.3s;
 }
 .portfolio-info p {
@@ -979,6 +979,7 @@ ul {
 .px-img {
   padding: 0 7rem;
 }
+
 @media (min-width: 992px){
   .modal-dialog {
     max-width: 50vw;
@@ -986,7 +987,7 @@ ul {
   .px-img {
     padding: 0 14rem;
   }
-  }
+}
 
 
 .modal-foot h4{
