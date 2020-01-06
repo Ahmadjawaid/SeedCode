@@ -776,6 +776,7 @@ ul {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   color: white;
   background: #000;
+  min-height: 100vh;
 }
 
 #portfolio .h4 {
@@ -871,16 +872,15 @@ ul {
 }
 
 .preview-btn {
-  margin-top: 20px;
   background-color: transparent;
-  color: rgba(255,255,255,.9);
+  color: rgba(255,255,255,.85);
   border-radius: 5px;
-  border: 1px solid rgba(255,255,255,.9);
+  /* border: 1px solid rgba(255,255,255,.85); */
   transition: all .3s;
 }
 .preview-btn:hover {
   color: rgba(255,255,255,1);
-  border: 1px solid rgba(255,255,255,1);
+  /* border: 1px solid rgba(255,255,255,1); */
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info {
@@ -952,25 +952,51 @@ ul {
 
 .modal-body {
   padding: 0;
-  border: 2px solid white;
-  background: black;
-}
-.modal-body h4{
-  font-weight: 600;
-  padding: 0;
-  margin: 0;
-  margin-top: 15px;
+  border: 5px solid white;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.95);
 }
 .modal-body p {
   padding: 0;
   margin: 0;
   margin-top: 5px;
- 
 }
 
+@media (min-width: 992px){
 .modal-dialog {
-  max-width: 70vw;
-  min-width: 70vw;
+  max-width: 50vw;
+}
+.px-img {
+  padding: 0 14rem;
+}
+}
+
+.modal-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  background: rgba(0, 0, 0, 0);
+
+  position: absolute;
+  top: 102%;
+  left: 0;
+  right: 0;
+}
+
+.px-img {
+  padding: 0 7rem;
+}
+
+
+.modal-foot h4{
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+
+}
+
+.modal-foot i{
+  padding-left: 5px;
 }
 
 

@@ -124,6 +124,13 @@
     items: 1
   });
 
+  // $('.carousel').carousel().on('slide.bs.carousel', function (e) {
+  //   var nextH = $(e.relatedTarget).height();
+  //   $(this).find('.active.item').parent().animate({
+  //     height: nextH
+  //   }, 1000);
+  // });
+
   // Play video when in view
   // $(document).ready(function () {
   //   // Get media - with autoplay disabled (audio or video)
