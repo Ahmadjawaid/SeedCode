@@ -878,6 +878,7 @@ ul {
   background-color: transparent;
   color: rgba(255,255,255,.85);
   transition: all .3s;
+  
 }
 .preview-btn:hover {
   color: rgba(255,255,255,1);
@@ -973,6 +974,7 @@ ul {
   top: 102%;
   left: 0;
   right: 0;
+  padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
@@ -1510,6 +1512,9 @@ bottom: 100px;
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+  .nd-mb {
+    display: none;
   }
 }
 
