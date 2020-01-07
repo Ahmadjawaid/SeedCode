@@ -875,8 +875,6 @@ ul {
 .preview-btn {
   background-color: transparent;
   color: rgba(255,255,255,.85);
-  border-radius: 5px;
-  /* border: 1px solid rgba(255,255,255,.85); */
   transition: all .3s;
 }
 .preview-btn:hover {
@@ -967,15 +965,23 @@ ul {
 
 
 .modal-foot {
-  display: flex;
-  justify-content: space-between;
-  align-items: center ;
   background: rgba(0, 0, 0, 0);
-
   position: absolute;
   top: 102%;
   left: 0;
   right: 0;
+  margin-bottom: 20px;
+}
+
+.modal-foot p {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.foot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
 }
 
 .px-img {
