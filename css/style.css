@@ -316,7 +316,7 @@ ul {
 .collab-header{
   text-align: center;
   /* font-weight: 600; */
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 50px;
 }
 
@@ -331,7 +331,7 @@ ul {
 
 @media (max-width: 992px) {
   .img-pad-2 {
-    padding: 0 5px;
+    padding: 0 3px;
   }
   .collab {
     margin-bottom: 0px;
@@ -1532,6 +1532,9 @@ bottom: 100px;
   .nd-mb {
     display: none;
   }
+  .counters span {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1540,9 +1543,16 @@ bottom: 100px;
   }
 
   #intro .intro-info h2, #sub-intro .sub-intro-info h2 {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 30px;
   }
+
+  #intro .intro-info p, #sub-intro .sub-intro-info p {
+    font-size: 16px;
+  }
+
+
+
 
   .section-header p {
     width: 100%;
