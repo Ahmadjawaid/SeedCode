@@ -124,14 +124,13 @@
     items: 1
   });
 
-  /* Stop video when exiting from modal */
-  $(function () {
-    $('#introModal').modal({
-      show: false
-    }).on('hidden.bs.modal', function () {
-      $(this).find('video')[0].pause();
-    });
-  });
+  /* Autoplay and exit video in modal */
+  $('#introModal').on('shown.bs.modal', function () {
+    $('#intro-vid')[0].play();
+  })
+  $('#introModal').on('hidden.bs.modal', function () {
+    $('#intro-vid')[0].pause();
+  })
 
 })(jQuery);
 

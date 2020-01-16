@@ -201,13 +201,13 @@ ul {
 
 #intro .intro-info h2 {
   margin-bottom: 20px;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 900;
 }
 
 #intro .intro-info p {
   margin-bottom: 40px;
-  font-size: 19px;
+  font-size: 24px;
   font-weight: 500;
 }
 
@@ -270,64 +270,88 @@ ul {
 }
 
 .get-started {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
+  background-color: rgb(192, 51, 51);
+  border: 1px solid rgb(192, 51, 51);
+  padding: 12px 25px;
+  margin-bottom: 15px;
+  font-size: medium;
+  transition: all .3s;
+  color: white;
   display: inline-block;
-  padding: 10px 32px;
-  border-radius: 5px;
-  transition: 0.5s;
-  margin: 0 20px 20px 0;
-  color: #fff;
-  background: white;
-  border: 2px solid #000;
-  color: #000;
-  align-items: center;
-  width: 163px;
-  transition: 0.5s;
+  
 
 }
 
 .get-started:hover {
-  background: #004289;
-  border-color: #000;
   color: white;
+  background-color: rgb(218, 42, 42);
+  border: 1px solid rgb(218, 42, 42);
 }
 
 .get-started i {
-  /* transition: all 0.3s;
-  -webkit-transition: all 0.3s; */
-  display: none;
-
-}
-.get-started:hover i {
-  display: inline;
+  padding-left: 10px;
 }
 
-.get-started:hover span{
-  display: none;
+
+
+
+.main-vid-btn {
+  background-color: #1DACBA;
+  border: 1px solid #1DACBA;
+  padding: 9px 25px;
+  margin-bottom: 15px;
+  font-size: medium;
+  transition: all .3s;
+  color: white;
+
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-vid-btn:hover {
+  color: white;
+  background-color: rgb(43, 188, 201);
+  border: 1px solid rgb(43, 188, 201);
+}
+
+.main-vid-btn i {
+  padding-left: 10px;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .collab {
   margin-bottom: 100px;
+  background: black;
+  padding: 80px 0px;
 }
 
-.collab-header{
+.collab-header h3 {
+  font-size: 40px;
+  color: #fff;
   text-align: center;
-  /* font-weight: 600; */
-  font-size: 18px;
-  margin-bottom: 50px;
+  font-weight: 800;
+  margin-bottom: 3em;
 }
 
-
-
-@media (min-width: 992px) {
-
-  .collab-header{
-    font-size: 25px;
+@media (max-width: 992px) {
+  .collab-header h3 {
+    font-size: 30px;
   }
+
+
 }
+
+
+
+
 
 @media (max-width: 992px) {
   .img-pad-2 {
@@ -565,6 +589,8 @@ ul {
   font-weight: 800;
   position: relative;
 }
+
+
 
 .section-header p {
   text-align: center;
@@ -818,12 +844,14 @@ ul {
   transition: all .3s;
   color: white;
 
-  
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
+
+@media (min-width: 768px) {
+  .ph-btn{
+    margin-right: 20px;
+  }
+}
+
 
 .ph-btn:hover {
   color: white;
@@ -834,6 +862,7 @@ ul {
 .ph-btn i {
   padding-left: 10px;
 }
+
 
 #portfolio h3 {
   color: white;
@@ -1019,6 +1048,9 @@ bottom: 100px;
 @media (min-width: 992px){
   .modal-dialog {
     max-width: 50vw;
+  }
+  #intro-modal-dialog {
+    max-width: 80vw;
   }
   .tele {
     max-width: 28vw !important;
@@ -1465,11 +1497,11 @@ bottom: 100px;
   }
 
   #intro .intro-info h2 {
-    padding: 0 10%;
+    padding: 0 15%;
   }
   
   #intro .intro-info p {
-    padding: 0 15%;
+    padding: 0 20%;
   }
 
 
@@ -1543,12 +1575,12 @@ bottom: 100px;
   }
 
   #intro .intro-info h2, #sub-intro .sub-intro-info h2 {
-    font-size: 27px;
+    font-size: 35px;
     margin-bottom: 30px;
   }
 
   #intro .intro-info p, #sub-intro .sub-intro-info p {
-    font-size: 16px;
+    font-size: 20px;
   }
 
 
