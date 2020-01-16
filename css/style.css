@@ -270,22 +270,24 @@ ul {
 }
 
 .get-started {
-  background-color: rgb(192, 51, 51);
-  border: 1px solid rgb(192, 51, 51);
+  background-color: white;
+  border: 2px solid black;
   padding: 12px 25px;
   margin-bottom: 15px;
   font-size: medium;
   transition: all .3s;
-  color: white;
+  color: black;
   display: inline-block;
+  
   
 
 }
 
 .get-started:hover {
   color: white;
-  background-color: rgb(218, 42, 42);
-  border: 1px solid rgb(218, 42, 42);
+  background-color: #01203f;
+  ;
+  border: 2px solid #01203f;
 }
 
 .get-started i {
@@ -820,7 +822,7 @@ ul {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   color: white;
-  background: #000;
+  background: #000913;
   min-height: 100vh;
 }
 
@@ -901,7 +903,7 @@ ul {
 #portfolio .portfolio-item {
   position: relative;
   overflow: hidden;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 #portfolio .portfolio-item .portfolio-wrap {
@@ -909,6 +911,9 @@ ul {
   position: relative;
   border-radius: 6px;
   margin: 0;
+  transition: all .3s;
+  margin:  20px;
+
 }
 
 #portfolio .portfolio-item .portfolio-wrap img {
@@ -945,7 +950,7 @@ ul {
 }
 
 .portfolio-info span{
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -966,7 +971,7 @@ ul {
   margin: 0;
   color: #fff;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
 }
 
@@ -985,8 +990,8 @@ ul {
 
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #000;
   cursor: pointer;
+  transform: scale(1.006);
   
 
 }
@@ -1055,7 +1060,7 @@ bottom: 100px;
 }
 
 .modal-backdrop{
-    opacity:0.7 !important;
+    opacity:0.9 !important;
 }
 
 
