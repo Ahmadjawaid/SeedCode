@@ -278,8 +278,6 @@ ul {
   transition: all .3s;
   color: black;
   display: inline-block;
-  
-  
 
 }
 
@@ -840,7 +838,7 @@ ul {
 .ph-btn {
   background-color: #1DACBA;
   border: 1px solid #1DACBA;
-  padding: 9px 25px;
+  padding: 12px 25px;
   margin-bottom: 15px;
   font-size: medium;
   transition: all .3s;
