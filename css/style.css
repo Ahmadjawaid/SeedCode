@@ -233,7 +233,7 @@ ul {
   }
   .partners {
     margin-bottom: 90px;
-    margin-top: 40px;
+    margin-top: 0px;
   }
 }
 
@@ -1026,7 +1026,7 @@ ul {
   margin: 0;
   color: #fff;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 17px;
   text-align: left;
 }
 
@@ -1547,7 +1547,7 @@ bottom: 100px;
     width: 80%;
   }
   #intro .intro-info {
-    margin-top: -125px;
+    margin-top: 80px;
   }
   #header .logo h1 {
     line-height: 1.5 !important; 
